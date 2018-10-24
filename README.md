@@ -5,7 +5,7 @@ Spring boot MVC application that authenticates using SAML 2.0 and React JS UI co
 ## Development Guide
 ## 1. Install npm
 We need to install npm.
-##2. Configure Identity Provider (Okta is an option).
+## 2. Configure Identity Provider (Okta is an option).
 We need to configure Identity Provider to handle authentication from our App.
 Okta has free developer account https://developer.okta.com/.
 
