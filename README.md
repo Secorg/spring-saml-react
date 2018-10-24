@@ -12,6 +12,9 @@ Okta has free developer account https://developer.okta.com/.
 Configure a SAML application https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta.
 
 ## 4. Clone saml-react application.
+git clone https://github.com/Secorg/spring-saml-react.git
+
+navigate to app folder and run npm install
 
 ## 3. Configure saml-react application with Identity provider.
 Update application properties file for your identity provider.
