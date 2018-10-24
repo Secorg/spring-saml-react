@@ -31,4 +31,5 @@
 
 # React JS UI artificats
 #########################
-
+src/main/resources/static/assets/static/**
+src/main/resources/templates/**

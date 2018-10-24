@@ -10,8 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "move:static": "mv build/static ../src/main/resources/static/assets/",
-    "move:template": "mv build/ ../src/main/resources/templates/",
+    "move:static": "mkdir -p ../src/main/resources/static/assets/ && mv build/static ../src/main/resources/static/assets/",
+    "move:template": "mkdir -p ../src/main/resources/templates/ && mv build/ ../src/main/resources/templates/",
     "remove:static": "rm -rf ../src/main/resources/static/assets/static/",
     "remove:template": "rm -rf ../src/main/resources/templates/",
     "build": "react-scripts build && npm run remove:static && npm run remove:template && npm run move:static && npm run move:template",
