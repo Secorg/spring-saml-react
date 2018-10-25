@@ -25,3 +25,8 @@ Use run.sh shell script in the root of folder to build and run the app.
 ./run.sh app
 
 Access : https://localhost:8443/
+
+Test user
+
+username: tesuser@gmail.com
+password: Test@123
