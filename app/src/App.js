@@ -23,7 +23,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="/saml/logout?local=true"
+            href="/saml/logout"
           >
             Logout
           </a>
